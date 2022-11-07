@@ -58,7 +58,7 @@ export default function Home() {
                     <p><strong>Purdue University Global</strong> — Industrial Organizational Psychology, In-progress Jan
                         2018 - May
                         2023</p>
-                    <p><strong>Waukesha County Technical College</strong> — Marketing, Incomplete Aug 2005 - Jan 2008
+                    <p><strong>Waukesha County Technical College</strong> — Marketing,  Aug 2005 - Jan 2008
                     </p>
                     <hr className={"my-8"}/>
                     <h2 className={"mb-6"}>SKILLS / CERTIFICATIONS</h2>
@@ -76,13 +76,6 @@ export default function Home() {
                         <li>Low and high fidelity prototyping</li>
                         <li>Rapid prototyping</li>
                     </ul>
-
-
-
-
-
-
-
                 </div>
             </Layout>
 
