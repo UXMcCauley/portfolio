@@ -1,0 +1,27 @@
+.container {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.container .name {
+  font-size: xx-large;
+  font-weight: lighter;
+}
+.container .linksContainer {
+  display: flex;
+}
+.container .linksContainer .link {
+  padding: 8px;
+}
+.container .linksContainer .link.active {
+  border-bottom: 1px solid purple;
+}
+@media only screen and (max-width: 900px) {
+  .container h1 {
+    flex-direction: row;
+  }
+}
+
+/*# sourceMappingURL=Header.module.css.map */
