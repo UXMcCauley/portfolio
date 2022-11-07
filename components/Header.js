@@ -19,7 +19,7 @@ function Header(props) {
             <div className={styles.linksContainer}>
                 {
                     links.map(link => (
-                        <div className={`${styles.link} ${router.pathname === link.href ? styles.active : null}`}><Link alt={link.alt} href={link.href}>{link.title}</Link></div>
+                        <div key={link.title} className={`${styles.link} ${router.pathname === link.href ? styles.active : null}`}><Link alt={link.alt} href={link.href}>{link.title}</Link></div>
                     ))
                 }
             </div>

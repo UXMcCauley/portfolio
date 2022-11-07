@@ -32,7 +32,7 @@ export default function Home() {
                 electronic properties such as footlocker.com, ladyfootlocker.com, kidsfootlocker.com, six0two.com, and
                 Eastbay.com.
                 Naish International — 2011 - 2013 Lead Web Developer
-                Naish is one of the world's leading stand up paddleboard designers and
+                Naish is one of the world&apos;s leading stand up paddleboard designers and
                 distributors. The product websites serve as a tool for professional and novice surfers alike to find
                 their ideal equipment. Each product page included 3D interactive drawings and specifications.
 
