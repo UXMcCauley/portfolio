@@ -14,12 +14,18 @@ function Header(props) {
     ]
 
     return (
-        <div className={styles.container}>
-            <div className={styles.name}>Andrew J. McCauley</div>
-            <div className={styles.linksContainer}>
+        <div className={"text-center"}>
+            <div className={" bg-gradient-to-r from-purple-600 to-blue-600 w-full text-white font-light p-4 text-2xl uppercase"}>
+                Andrew J. McCauley
+            </div>
+            <div className={"flex justify-center"}>
                 {
                     links.map(link => (
-                        <div key={link.title} className={`${styles.link} ${router.pathname === link.href ? styles.active : null}`}><Link alt={link.alt} href={link.href}>{link.title}</Link></div>
+                        <div key={link.title} className={`p-4 cursor-pointer ${router.pathname === link.href ? "border-b border-b-purple-700" : null}`}>
+                            <Link alt={link.alt} href={link.href}>
+                                {link.title}
+                            </Link>
+                        </div>
                     ))
                 }
             </div>

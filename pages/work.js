@@ -5,15 +5,27 @@ import Image from "next/image";
 function Work(props) {
     return (
         <Layout>
-            <div className={`grid grid-cols-2`}>
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-                <div>4</div>
-                <Image src={`/mchs_home_square.png`} alt={`Alt text here...`} width={500} height={500}/>
-                <Image src={`/mchs_home_square.png`} alt={`Alt text here...`} width={500} height={500}/>
-                <Image src={`/mchs_home_square.png`} alt={`Alt text here...`} width={500} height={500}/>
-                <Image src={`/mchs_home_square.png`} alt={`Alt text here...`} width={500} height={500}/>
+            <div className={"grid grid-cols-3 gap-10 mx-auto mt-10 text-center"}>
+                <div className={"shadow flex justify-center"}>
+                    <img src={`/mchs_home_square.png`} alt={`Alt text here...`} className={""}/>
+                </div>
+                <div className={"shadow flex justify-center"}>
+                    <img src={`/footlocker_square.png`} alt={`Alt text here...`} className={""}/>
+                </div>
+                <div className={"shadow flex justify-center"}>
+                    <img src={`/reign_square.png`} alt={`Alt text here...`} className={""}/>
+                </div>
+                <div className={"shadow flex justify-center"}>
+                    <img src={`/kids_footlocker_square.png`} alt={`Alt text here...`} className={""}/>
+                </div>
+                <div className={"shadow flex justify-center"}>
+                    <img src={`/naish_square.png`} alt={`Alt text here...`} className={""}/>
+                </div>
+                <div className={"shadow flex justify-center"}>
+                    <img src={`/tts_square.png`} alt={`Alt text here...`} className={""}/>
+                </div>
+
+
             </div>
         </Layout>
     );

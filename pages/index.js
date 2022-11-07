@@ -11,43 +11,52 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             <Layout>
-                <h2>PROFILE</h2>
-                Universal skillset including certification-backed UX/UI design and UX management. Full-stack developer,
-                highly-skilled with React, React Native, Next.js, Angular, Vue.js. Master-level skills with prototyping
-                tools such as Framer, Adobe XD, Figma, and more. Human-centered design focus on interface interactivity
-                and high-fidelity prototyping.
+                <div className={"max-w-screen-xl mt-10 mx-auto"}>
+                    <h2>PROFILE</h2>
+                    Universal skillset including certification-backed UX/UI design and UX management. Full-stack
+                    developer,
+                    highly-skilled with React, React Native, Next.js, Angular, Vue.js. Master-level skills with
+                    prototyping
+                    tools such as Framer, Adobe XD, Figma, and more. Human-centered design focus on interface
+                    interactivity
+                    and high-fidelity prototyping.
 
-                <h2>EXPERIENCE</h2>
-                <p><strong>Forward Service Corporation — 2022 </strong></p> Current Software Engineer
-                <p>Designed and Developed the Transition to Success application to help unite people in need of state
-                    services with the best service providers based on needs and location. Designed and developed the
-                    call center training application for internal use in the career development department.
-                    Marshfield Clinic Health System — 2017-2021 Lead Service Designer, UX Designer, Developer
-                    Responsible for researching, designing, and prototyping end-to-end services
-                    and touchpoint for both patients and internal staff. Some of the projects worked on include the
-                    customer-facing website, the mobile app, and the intranet. Also designed improvements for pharmacy
-                    services and streamlining operations for COVID-19.</p>
-                Foot Locker, Inc — 2014 - 2017 Software Engineer
-                Participating in the iterate design and development of all the Foot Locker
-                electronic properties such as footlocker.com, ladyfootlocker.com, kidsfootlocker.com, six0two.com, and
-                Eastbay.com.
-                Naish International — 2011 - 2013 Lead Web Developer
-                Naish is one of the world&apos;s leading stand up paddleboard designers and
-                distributors. The product websites serve as a tool for professional and novice surfers alike to find
-                their ideal equipment. Each product page included 3D interactive drawings and specifications.
+                    <h2>EXPERIENCE</h2>
+                    <p><strong>Forward Service Corporation — 2022 </strong></p>
+                    <p>Current Software Engineer</p>
+                    <p>Designed and Developed the Transition to Success application to help unite people in need of
+                        state
+                        services with the best service providers based on needs and location. Designed and developed the
+                        call center training application for internal use in the career development department.
+                        Marshfield Clinic Health System — 2017-2021 Lead Service Designer, UX Designer, Developer
+                        Responsible for researching, designing, and prototyping end-to-end services
+                        and touchpoint for both patients and internal staff. Some of the projects worked on include the
+                        customer-facing website, the mobile app, and the intranet. Also designed improvements for
+                        pharmacy
+                        services and streamlining operations for COVID-19.</p>
+                    Foot Locker, Inc — 2014 - 2017 Software Engineer
+                    Participating in the iterate design and development of all the Foot Locker
+                    electronic properties such as footlocker.com, ladyfootlocker.com, kidsfootlocker.com, six0two.com,
+                    and
+                    Eastbay.com.
+                    Naish International — 2011 - 2013 Lead Web Developer
+                    Naish is one of the world&apos;s leading stand up paddleboard designers and
+                    distributors. The product websites serve as a tool for professional and novice surfers alike to find
+                    their ideal equipment. Each product page included 3D interactive drawings and specifications.
 
-                <h2>EDUCATION</h2>
-                Purdue Global Online — Industrial Organizational Psychology, In-progress Jan 2018 - May 2023
-                Waukesha County Technical College — Marketing, Incomplete Aug 2005 - Jan 2008
+                    <h2>EDUCATION</h2>
+                    Purdue Global Online — Industrial Organizational Psychology, In-progress Jan 2018 - May 2023
+                    Waukesha County Technical College — Marketing, Incomplete Aug 2005 - Jan 2008
 
-                <h2>SKILLS</h2>
-                Figma
-                Adobe XD
-                Framer Prototyping
-                Nielsen Norman Group certified UX manager and designer
-                Umbraco certified developer
-                React developer
-                Next.js developer
+                    <h2>SKILLS</h2>
+                    Figma
+                    Adobe XD
+                    Framer Prototyping
+                    Nielsen Norman Group certified UX manager and designer
+                    Umbraco certified developer
+                    React developer
+                    Next.js developer
+                </div>
             </Layout>
 
         </div>
